@@ -10,6 +10,7 @@
 		F287FCD41FDAA4C3000F29B1 /* GetVolumeLevelsFromeSampleBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = F287FCD21FDAA4C3000F29B1 /* GetVolumeLevelsFromeSampleBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F287FCDC1FDAA4E0000F29B1 /* SampleBufferToVolumeLevelsEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = F287FCDA1FDAA4E0000F29B1 /* SampleBufferToVolumeLevelsEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F287FCDD1FDAA4E0000F29B1 /* SampleBufferToVolumeLevelsEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = F287FCDB1FDAA4E0000F29B1 /* SampleBufferToVolumeLevelsEngine.m */; };
+		F287FCDF1FDAA6EA000F29B1 /* GetVolumeLevelsFromeSampleBuffer.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F287FCDE1FDAA6EA000F29B1 /* GetVolumeLevelsFromeSampleBuffer.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		F287FCD31FDAA4C3000F29B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F287FCDA1FDAA4E0000F29B1 /* SampleBufferToVolumeLevelsEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleBufferToVolumeLevelsEngine.h; sourceTree = "<group>"; };
 		F287FCDB1FDAA4E0000F29B1 /* SampleBufferToVolumeLevelsEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleBufferToVolumeLevelsEngine.m; sourceTree = "<group>"; };
+		F287FCDE1FDAA6EA000F29B1 /* GetVolumeLevelsFromeSampleBuffer.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GetVolumeLevelsFromeSampleBuffer.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 				F287FCDA1FDAA4E0000F29B1 /* SampleBufferToVolumeLevelsEngine.h */,
 				F287FCDB1FDAA4E0000F29B1 /* SampleBufferToVolumeLevelsEngine.m */,
 				F287FCD31FDAA4C3000F29B1 /* Info.plist */,
+				F287FCDE1FDAA6EA000F29B1 /* GetVolumeLevelsFromeSampleBuffer.podspec */,
 			);
 			path = GetVolumeLevelsFromeSampleBuffer;
 			sourceTree = "<group>";
@@ -128,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F287FCDF1FDAA6EA000F29B1 /* GetVolumeLevelsFromeSampleBuffer.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
