@@ -66,7 +66,7 @@
             float sum = 0;
             for (long i = 0; i < audioBuffer.mDataByteSize; i++) {
                 long x1, x2;
-                if (asbd.mFormatFlags & kAudioFormatFlagIsBigEndian) {
+                if (asbd.mFormatFlags & kAudioFormatFlagIsPacked) {
                     x1 = frame[i * 2 + 1] << 8;
                     x2 = frame[i * 2];
                 }
