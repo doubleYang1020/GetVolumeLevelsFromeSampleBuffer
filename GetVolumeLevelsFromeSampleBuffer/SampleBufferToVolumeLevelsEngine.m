@@ -80,7 +80,7 @@
                 sum += w*w;
             }
             
-            avgLevel = sqrtf(d);
+            avgLevel = sqrtf(sum/d);
         }
         
     }
