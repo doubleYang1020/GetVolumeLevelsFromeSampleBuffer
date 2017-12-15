@@ -34,7 +34,7 @@
 //            NSLog(@"audio_volume = %lf",(sqrtf(sum/d)));
 //            return (sqrtf(sum/d));
 
--(float)getVolumeLevelsFromeSampleBuffer:(CMSampleBufferRef)sampleBuffer{
++(float)getVolumeLevelsFromeSampleBuffer:(CMSampleBufferRef)sampleBuffer{
     CMFormatDescriptionRef formatDescription = CMSampleBufferGetFormatDescription(sampleBuffer);
     const AudioStreamBasicDescription asbd = *CMAudioFormatDescriptionGetStreamBasicDescription(formatDescription);
     
@@ -83,7 +83,6 @@
         }
         
     }
-    NSLog(@"audioVolume -- %lf", avgLevel);
     return avgLevel;
 }
 @end
