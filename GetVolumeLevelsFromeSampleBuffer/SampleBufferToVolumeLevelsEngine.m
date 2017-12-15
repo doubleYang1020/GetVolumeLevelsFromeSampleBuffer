@@ -64,7 +64,8 @@
             assert(asbd.mFormatFlags & kLinearPCMFormatFlagIsSignedInteger); // signed int
             Byte *frame = (Byte *)audioBuffer.mData;
             float sum = 0;
-            for (long i = 0; i < audioBuffer.mDataByteSize; i++) {
+            int d = audioBuffer.mDataByteSize/2;
+            for (long i = 0; i < d; i++) {
                 long x1, x2;
                 if (asbd.mFormatFlags & kAudioFormatFlagIsPacked) {
                     x1 = frame[i * 2 + 1] << 8;
@@ -79,7 +80,7 @@
                 sum += w*w;
             }
             
-            avgLevel = sqrtf(sum/audioBuffer.mDataByteSize);
+            avgLevel = sqrtf(d);
         }
         
     }
